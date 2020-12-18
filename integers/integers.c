@@ -2,12 +2,12 @@
 
 void main (void)
 {
-	int a;
-	int b = 3;
+	float a;
+	float b = 3.641;
 	int c;
 
 	a = 2;
 	c = a+b;
 
-	printf("The sum of adding %d and %d is %d\n", a, b, c);
+	printf("The sum of adding %f and %f is %d\n", a, b, c);
 }
