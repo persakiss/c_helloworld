@@ -9,5 +9,6 @@ void main (void)
 	a = 2;
 	c = a+b;
 
+	/* Seeing float + int addition behaviour */
 	printf("The sum of adding %f and %f is %d\n", a, b, c);
 }
